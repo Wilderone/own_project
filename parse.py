@@ -6,12 +6,12 @@ import pprint
 url_profiles = 'https://fleet-api.taxi.yandex.net/v1/parks/driver-profiles/list'
 url_pay = 'https://fleet-api.taxi.yandex.net/v2/parks/driver-profiles/transactions/list'
 
-access = {'X-Client-ID': 'taxi/park/92ed796aa0224b85b2b6c3d28d251261',
-          'X-Api-Key': 'aeVIWUOopXfyTXkTGPlDNuQRNJjnSnkmT'}
+access = {'X-Client-ID': 'taxi/par1',
+          'X-Api-Key': 'mT'}
 query = {'limit': 1000,
          'query':
              {'park':
-                  {'id': '92ed796aa0224b85b2b6c3d28d251261'}
+                  {'id': '92ed796aa261'}
               }
          }
 
